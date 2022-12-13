@@ -1,0 +1,36 @@
+{
+  "profiles": {
+    "Hub_Sas": {
+      "commandName": "Project",
+      "commandLineArgs": "/ConnectionStrings:cs HostName=rido.azure-devices.net;DeviceId=demo-device;SharedAccessKey=F7drs6Qdh0F6Ty1IXHZArnQegOnV8XTzDd3qrtNOtec="
+    },
+    "Hub_SelfSigned": {
+      "commandName": "Project",
+      "commandLineArgs": "/ConnectionStrings:cs HostName=rido.azure-devices.net;X509Key=3C3A441AF8E8AB6BF7D3A08F9A0502EE0A27F7AF"
+    },
+    "DPS_Sas": {
+      "commandName": "Project",
+      "commandLineArgs": "/ConnectionStrings:cs IdScope=0ne00890689;DeviceId=dps-dev-01;SharedAccessKey=MDQMDV4fo2jY6emc2gdbFXmW++CuytBySdS6JwYNLiI="
+    },
+    "DPS_X509": {
+      "commandName": "Project",
+      "commandLineArgs": "/ConnectionStrings:cs IdScope=0ne00890689;X509Key=3C3A441AF8E8AB6BF7D3A08F9A0502EE0A27F7AF"
+    },
+    "EventGrid": {
+      "commandName": "Project",
+      "commandLineArgs": "/ConnectionStrings:cs HostName=rido-pubsub.centraluseuap-1.ts.eventgrid.azure.net;X509Key=c4e57e9be659aad8d542c28869195e506a9ce455"
+    },
+    "e4k": {
+      "commandName": "Project",
+      "commandLineArgs": "/ConnectionStrings:cs HostName=e4k.rido.dev;X509Key=3C3A441AF8E8AB6BF7D3A08F9A0502EE0A27F7AF"
+    },
+    "mosquitto": {
+      "commandName": "Project",
+      "commandLineArgs": "/ConnectionStrings:cs HostName=mosquitto.rido.dev;TcpPort=8884;X509Key=bd5e9f1a0d0c5a020a03063de7c0b0fa3e59a14d;CaFile=RidoFY23CA.pem"
+    },
+    "hive": {
+      "commandName": "Project",
+      "commandLineArgs": "/ConnectionStrings:cs HostName=f8826e3352314ca98102cfbde8aff20e.s2.eu.hivemq.cloud;UserName=client1;Password=Myclientpwd.000;ClientId=client1"
+    }
+  }
+}

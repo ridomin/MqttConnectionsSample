@@ -1,0 +1,1 @@
+az iot dps enrollment-group compute-device-key --eid sas -n rido --rid
