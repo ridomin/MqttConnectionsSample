@@ -3,13 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33103.201
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqttConnectionsSample", "MqttConnectionsSample\MqttConnectionsSample.csproj", "{C1456204-11EE-42C9-BF2D-A28ED87B0B7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttConnectionsSample", "MqttConnectionsSample\MqttConnectionsSample.csproj", "{C1456204-11EE-42C9-BF2D-A28ED87B0B7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{102CAF10-E5D3-417D-BE0A-F4C081C270EF}"
 	ProjectSection(SolutionItems) = preProject
 		bash_sha256.cmd = bash_sha256.cmd
 		computeDpsKey.cmd = computeDpsKey.cmd
 		createLeaf.ps1 = createLeaf.ps1
+		prov-aspubsub.sh = prov-aspubsub.sh
 	EndProjectSection
 EndProject
 Global

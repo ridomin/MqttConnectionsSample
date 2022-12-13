@@ -18,7 +18,7 @@
     },
     "EventGrid": {
       "commandName": "Project",
-      "commandLineArgs": "/ConnectionStrings:cs HostName=rido-pubsub.centraluseuap-1.ts.eventgrid.azure.net;X509Key=c4e57e9be659aad8d542c28869195e506a9ce455"
+      "commandLineArgs": "/ConnectionStrings:cs HostName=rido-pubsub.centraluseuap-1.ts.eventgrid.azure.net;X509Key=0817F9E366ABF8FBFB98D949833D7A3CE59E99C4"
     },
     "e4k": {
       "commandName": "Project",
